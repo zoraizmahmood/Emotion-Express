@@ -4,7 +4,7 @@
 
 **Emotion Express** (motor de IA *EmotionNetV3*) es un juego de acción/aventura hecho con HTML5 Canvas y JavaScript puro. Combina las mecánicas clásicas de un juego de mazmorras — moverte, atacar y superar niveles eliminando enemigos — con un modelo de **TensorFlow.js** que analiza tu cara mediante la webcam en tiempo real. La emoción que predomina mientras juegas determina el siguiente nivel al que accedes.
 
-🔗 **[Jugar la demo](URL-DEMO)**
+🔗 **[Jugar la demo](https://emotion-express.netlify.app/)**
 
 ---
 
@@ -83,16 +83,10 @@ Emotion Express/
 
 ---
 
-## 📌 Estado
-
-Proyecto en desarrollo (**Beta**). Ya funcionan los 5 niveles, el combate, los enemigos y la integración de IA. En la hoja de ruta: más niveles, power-ups, finales según la emoción predominante y sonido.
-
----
-
 ## 🎓 Contexto
 
-Proyecto desarrollado en el marco de un **Treball de Recerca (TR)** — trabajo de investigación académico — como demostración práctica del uso de inteligencia artificial aplicada al entretenimiento.
+Proyecto desarrollado en el marco de un **Treball de Recerca (TR)** (trabajo de investigación académico) como demostración práctica del uso de inteligencia artificial aplicada al entretenimiento.
 
 ## 👤 Autor
 
-Creado por [@TU-USUARIO](https://github.com/TU-USUARIO)
+Creado por zoraizmahmood (https://github.com/zoraizmahmood)
