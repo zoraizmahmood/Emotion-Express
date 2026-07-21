@@ -4,7 +4,7 @@
 
 **Emotion Express** (motor de IA *EmotionNetV3*) es un juego de acción/aventura hecho con HTML5 Canvas y JavaScript puro. Combina las mecánicas clásicas de un juego de mazmorras (moverte, atacar y superar niveles eliminando enemigos) con un modelo de **TensorFlow.js** que analiza tu cara mediante la webcam en tiempo real. La emoción que predomina mientras juegas determina el siguiente nivel al que accedes.
 
-🔗**[Jugar la demo](https://emotion-express.netlify.app/)**
+**[DEMO](https://emotion-express.netlify.app/)**
 
 <p align="center">
   <img src="assets/demo.gif" alt="Gameplay de Emotion Express" width="720">
@@ -63,20 +63,22 @@ Luego abre `http://localhost:8000` en tu navegador y permite el acceso a la cám
 > Navegadores recomendados: Chrome 80+, Firefox 75+ o Safari 13+. Para desplegarlo en producción se requiere **HTTPS** para poder usar la cámara.
 
 ---
-
 ## Estructura del proyecto
+
+```
 Emotion-Express/
-├── index.html # Página principal
+├── index.html          # Página principal
 ├── js/
-│ ├── index.js # Motor principal y game loop
-│ ├── emotionNet.js # Cámara + modelo de IA de emociones
-│ ├── eventListeners.js
-│ └── utils.js
-├── classes/ # Player, colisiones, puertas, vida y enemigos
-├── data/ # Capas de los niveles (suelo, paredes, decoración)
-├── modelo/, modelo_max/ # Modelos de IA entrenados (TensorFlow.js)
-├── images/, playerAssets/, MonstersAssets/, utilsAssets/ # Sprites y tilesets
+│   ├── index.js        # Motor principal y game loop
+│   ├── emotionNet.js   # Cámara + modelo de IA de emociones
+│   ├── eventListeners.js
+│   └── utils.js
+├── classes/            # Player, colisiones, puertas, vida y enemigos
+├── data/               # Capas de los niveles (suelo, paredes, decoración)
+├── modelo/, modelo_max/  # Modelos de IA entrenados (TensorFlow.js)
+├── images/, playerAssets/, MonstersAssets/, utilsAssets/  # Sprites y tilesets
 └── README.md
+```
 ---
 
 ## Contexto
