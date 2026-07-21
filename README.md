@@ -6,6 +6,10 @@
 
 🔗 **[Jugar la demo](https://emotion-express.netlify.app/)**
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Gameplay de Emotion Express" width="720">
+</p>
+
 ---
 
 ## ✨ Características
